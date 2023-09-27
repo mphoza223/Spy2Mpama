@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.4.aar\dc37763141d5d0fddc03dcb9be1dfde0\AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a98fac64585723a2195f64c6b165a585\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\3034bf1fa41ed4958450e7a11f56c0e0\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:16:1-21:12
+MERGED from [:CordovaLib] C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2dc8f87c35eca462dcb7aa84e2c1d518\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\9c3cea4161df7154b1779cdd00e9620a\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\72a7f7ea7f07574396f1d632cc6bdca6\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\53bb21a531fb3208337d3d80ef77f038\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d399b31f1561b246c1551252f1c4c7c9\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\3412a61ac06dd4e966e05034ed245a67\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\4ad8d56b3be349b62daca5cedb26ef48\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:98-137
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:138-196
+	android:versionCode
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:5:5-13:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a98fac64585723a2195f64c6b165a585\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a98fac64585723a2195f64c6b165a585\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\3034bf1fa41ed4958450e7a11f56c0e0\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\3034bf1fa41ed4958450e7a11f56c0e0\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2dc8f87c35eca462dcb7aa84e2c1d518\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2dc8f87c35eca462dcb7aa84e2c1d518\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\9c3cea4161df7154b1779cdd00e9620a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\9c3cea4161df7154b1779cdd00e9620a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\72a7f7ea7f07574396f1d632cc6bdca6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\72a7f7ea7f07574396f1d632cc6bdca6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\53bb21a531fb3208337d3d80ef77f038\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\53bb21a531fb3208337d3d80ef77f038\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d399b31f1561b246c1551252f1c4c7c9\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d399b31f1561b246c1551252f1c4c7c9\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\3412a61ac06dd4e966e05034ed245a67\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\3412a61ac06dd4e966e05034ed245a67\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\4ad8d56b3be349b62daca5cedb26ef48\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\4ad8d56b3be349b62daca5cedb26ef48\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.ionicframework.grub823473.MainActivity
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:screenOrientation
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:194-230
+	android:label
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:294-336
+	android:configChanges
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:231-293
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:12:9-233
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:25:9-232
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:12:19-128
+	android:theme
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:12:182-230
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:12:129-181
+uses-sdk
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.4.aar\dc37763141d5d0fddc03dcb9be1dfde0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.4.aar\dc37763141d5d0fddc03dcb9be1dfde0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a98fac64585723a2195f64c6b165a585\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a98fac64585723a2195f64c6b165a585\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\3034bf1fa41ed4958450e7a11f56c0e0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\3034bf1fa41ed4958450e7a11f56c0e0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:17:5-43
+MERGED from [:CordovaLib] C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2dc8f87c35eca462dcb7aa84e2c1d518\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2dc8f87c35eca462dcb7aa84e2c1d518\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\9c3cea4161df7154b1779cdd00e9620a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\9c3cea4161df7154b1779cdd00e9620a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\72a7f7ea7f07574396f1d632cc6bdca6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\72a7f7ea7f07574396f1d632cc6bdca6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\53bb21a531fb3208337d3d80ef77f038\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\53bb21a531fb3208337d3d80ef77f038\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d399b31f1561b246c1551252f1c4c7c9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\d399b31f1561b246c1551252f1c4c7c9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\3412a61ac06dd4e966e05034ed245a67\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\3412a61ac06dd4e966e05034ed245a67\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\4ad8d56b3be349b62daca5cedb26ef48\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\4ad8d56b3be349b62daca5cedb26ef48\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\020e64afa3b6896a81d30dc3c1af5eee\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:14:42-71
+	android:minSdkVersion
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:14:15-41
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\4f73ace94d6ba18baa37015921421b55\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\Kutoane\Desktop\Spy2Mpama\platforms\android\app\src\main\AndroidManifest.xml:16:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\667f4d9615cdd64fb9e7eba69da5b016\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Kutoane\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\57b83446b9c0d822e5bd200f82ce4818\AndroidManifest.xml:20:20-65

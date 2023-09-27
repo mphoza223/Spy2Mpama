@@ -1,0 +1,166 @@
+<ion-view name="content">
+ <!-- <div  id="Stats" ng-show="showStats==true"></div> -->
+  <div class="bar bar-header bar-clear">
+     <div class="button button-clear button-calm">
+        <span class="calm"  style="font-family: KlavikaReg;">level: {{sessobj.level}}</span>
+     </div>
+
+      <div class="title" style="font-family: KlavikaReg; font-size: 2.2em;">
+        <span class="calm">{{sessobj.score}}</span>
+      </div>
+
+       <div  style="font-family: KlavikaReg;" class="button button-outline button-light" ng-click="pause()">
+        pause
+     </div>
+
+  </div> 
+     <ion-pane>
+
+     <div id="output"></div>
+      <div align="center" style="margin-top: 15%; z-index: 120;" class="flicker" ng-if="addLifeDisp">
+        <img src="img/ballPic.png" id="gainDisp">
+      </div>
+
+     <div id="stageChange" ng-if="isStageChanging" class="row row-center">
+       <div id="innerBlock" class="card col" align="center">
+         <h1 style="color: black; font-family: KlavikaReg;">level: {{sessobj.level}}</h1>
+       </div>
+     </div>
+
+     <div class="bar bar-footer bar-clear">
+          <button class="button button-clear" ng-click="setVibratos()">
+            <i class="vibratos" ng-show="vibratos===false"></i>
+            <i class="slegsVibratos" ng-show="vibratos"></i>
+        </button>
+          <div class="title">
+                <i ng-class="{goodHealth: sessobj.health.h1==true, badHealth: sessobj.health.h1==false}"></i>
+                <i ng-class="{goodHealth: sessobj.health.h2==true, badHealth: sessobj.health.h2==false}"></i>
+                <i ng-class="{goodHealth: sessobj.health.h3==true, badHealth: sessobj.health.h3==false}"></i>
+                <i ng-class="{goodHealth: sessobj.health.h4==true, badHealth: sessobj.health.h4==false}"></i>
+                <i ng-class="{goodHealth: sessobj.health.h5==true, badHealth: sessobj.health.h5==false}"></i>
+          </div>
+        <button class="button button-clear" ng-click="checkBall()">
+          <i class="icon ion-ios-football-outline light"></i>
+        </button>
+    </div>
+     </ion-pane>
+</ion-view>
+
+<script type="text/ng-template" id="gameoverTemp.html">
+ 
+       <div style=" padding: 0px; margin: 0px; min-width: 60%;">
+       <h3 style="text-align: center; color: lightblue; font-family: KlavikaReg">Game over!</h3>
+       <h4 style="float: left; color: white; font-family: KlavikaReg">Score :</h4><h4 class="balanced" style="float: right">{{sessobj.score}}</h4><br><br>
+       <h4 style="color: grey;">Do you want to retry?</h4><br>
+       <p class="confBtn" style="display: inline-block; float: left; margin-right: 3px;" ng-click="gameoverBtn('playAgain')">Yes</p>
+
+       <p class="confBtn" style="display: inline-block; float: right; margin-left: 5px;"  ng-click="gameoverBtn('back')">No</p>
+      </div>
+                          
+</script>
+
+<script type="text/ng-template" id="gameFinished.html">
+ 
+       <div style=" padding: 0px; margin: 0px; min-width: 60%;">
+       <h3 style="text-align: center; color: lightblue; font-family: KlavikaReg">Well done!</h3>
+       <h4 style="float: left; color: white; font-family: KlavikaReg">Score :</h4><h4 class="balanced" style="float: right">{{sessobj.score}}</h4><br><br>
+       <h4 style="color: grey;">Want to go again?</h4><br>
+       <p class="confBtn" style="display: inline-block; float: left; margin-right: 3px;" ng-click="gameoverBtn('playAgain')">Yes</p>
+       <p class="confBtn" style="display: inline-block; float: right; margin-left: 5px;"  ng-click="gameoverBtn('back')">No</p>
+      </div>
+                          
+</script>
+
+<style type="text/css">
+  #output{
+        /*background-image: url('img/cand2.jpg');*/
+    background-color: lightblue;
+
+  }
+
+  .slegsVibratos{
+    min-height: 1.5em;
+    min-width: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-image: url('img/slegVibrato.png');
+  }
+.vibratos{
+      min-height: 1.5em;
+    min-width: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-image: url('img/vibrato.png');
+
+}
+  #scoreHUD{
+    color: white;
+    text-decoration-color: white;
+    /*position: absolute; */
+    /*z-index: 100; */
+    /*margin-top: 8%; */
+    font-family: KlavikaReg;
+    /*margin-left: 5px;*/
+
+  }
+
+  #gainDisp{
+      max-width: 75px;
+      max-height: 75px;
+  }
+
+  #innerBlock{
+      max-width: 50%;
+      max-height: 50%;
+      margin-left: 25%;
+      padding: 8px;
+      text-align: center;
+      font-family: KlavikaReg;
+  }
+
+    #stageChange{
+      min-height: 100%;
+      min-width: 100%;
+      opacity: 0.55;
+      background-color: #444;
+      z-index: 800;
+  }
+
+  .goodHealth{
+      min-height: 1.2em;
+      min-width:  1.2em;
+      background-image: url('img/soccerBall.png');
+      background-size: cover;
+      display: inline-block;
+  }
+
+  .badHealth{
+      min-height: 1.2em;
+      min-width:  1.2em;
+      background-image: url('img/soccerBallDark.png');
+      background-size: cover;
+      display: inline-block;
+  }
+
+  @keyframes fade {
+   from { opacity: 1.0; } 
+    50% { opacity: 0.2; }
+    to  { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; } 
+    50% { opacity: 0.2; }
+    to  { opacity: 1.0; }
+}
+ 
+.flicker {
+    animation:fade 500ms infinite;
+    -webkit-animation:fade 500ms infinite;
+
+}
+</style>

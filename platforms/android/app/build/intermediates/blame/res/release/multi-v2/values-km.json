@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Kutoane\\Desktop\\Spy2Mpama\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-km\\values-km.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Kutoane\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.0.4.aar\\dc37763141d5d0fddc03dcb9be1dfde0\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "237,309,437,502,566,659",
+                        "endColumns": "71,127,64,63,92,124",
+                        "endOffsets": "308,436,501,565,658,783"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "2653,2729,2861,2930,2998,3095",
+                        "endColumns": "75,131,68,67,96,128",
+                        "endOffsets": "2724,2856,2925,2993,3090,3219"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kutoane\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\667f4d9615cdd64fb9e7eba69da5b016\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,383,570,689,792,1013,1135,1269,1486,1590,1792,1915,2119,2303,2393,2477",
+                        "endColumns": "99,186,118,102,220,121,133,216,103,201,122,203,183,89,83,101",
+                        "endOffsets": "382,569,688,791,1012,1134,1268,1485,1589,1791,1914,2118,2302,2392,2476,2578"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,396,519,626,847,973,1319,1536,1644,1846,1973,2177,2365,2459,2547",
+                        "endColumns": "103,186,122,106,220,125,137,216,107,201,126,203,187,93,87,105",
+                        "endOffsets": "204,391,514,621,842,968,1106,1531,1639,1841,1968,2172,2360,2454,2542,2648"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kutoane\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\57b83446b9c0d822e5bd200f82ce4818\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "207",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "1111",
+                        "endColumns": "207",
+                        "endOffsets": "1314"
+                    }
+                }
+            ]
+        }
+    ]
+}

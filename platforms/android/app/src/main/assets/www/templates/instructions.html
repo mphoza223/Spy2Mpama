@@ -1,0 +1,44 @@
+<ion-view name="content"  id="aboutContent"  ng-init="runAdverts()">
+    <ion-nav-bar class="bar bar-clear">
+      <ion-nav-buttons side="left">
+        <button class="button button-clear" style="font-size: 1.5em; font-family: KlavikaReg;" ui-sref="app.home">got it</button>
+      </ion-nav-buttons>
+     </ion-nav-bar>
+     <ion-content class="has-header">
+        <p id="par" class="padding">
+          Touch the ball and swipe to apply some force to it. The goal is to put as many balls through the hoop as possible. With every round of four  consecutive successful scores, you get extra life. The hoop will move faster as the game progresses to higher levels. The farther away the hoop is from the ball's rest position, the higher you'll score if the ball goes through.<br>
+          Use the <i class="icon ion-ios-football-outline calm" style="font-size: 1.5em;"></i> button to restore the ball to it's rest position if you need to. <br> Use the <i class="vibratos"></i> button to turn vibrations on/off. <br> The game is not timed so you can take as long as you want to move through successive levels. How quickly the game progresses will be entirely to your own discretion.<br><br> Good luck.
+        </p>
+
+
+     </ion-content>
+</ion-view>
+
+<style type="text/css">
+  #aboutContent{
+    background-image: url('img/cand2.jpg');
+    /*background-color: yellow;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+  }
+
+  #par{
+    color: white;
+    font-size: 1.25em;
+    font-family: KlavikaReg;
+  }
+
+  .vibratos{
+      min-height: 1.5em;
+    min-width: 1.5em;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-image: url('img/vibrato.png');
+
+    margin-top: 3px;
+
+}
+</style>

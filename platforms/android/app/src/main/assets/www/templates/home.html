@@ -1,0 +1,70 @@
+<ion-view name="content" ng-init="homePrep()">
+    <ion-nav-bar class="bar-clear">
+
+      <ion-nav-buttons side="right">
+        <button class="button button-clear button-light" ng-click="appShutdown()" style="font-size: 1.5em;">
+        <i class="ion-android-close light"></i>
+        </button>
+      </ion-nav-buttons>
+     </ion-nav-bar>
+  <ion-pane id="container" class="row row-center">
+     
+ <div class="col" align="center">
+    <div class="button button-outline button-light button-block lediv" ng-click="continue()" ng-if="openSess">
+      <span class="homeBtns light">Continue</span>
+    </div>
+
+    <div class="button button-outline button-light button-block lediv" ng-click="newGame()">
+      <span class="homeBtns light">new game</span>
+    </div>
+
+    <div class="button button-outline button-light button-block lediv" ui-sref="app.instructions">
+      <span  class="homeBtns light">instructions</span>
+    </div>
+
+    <div class="button button-outline button-light button-block lediv" ng-click="HighScore()" ng-if="HighScoreAvailable">
+      <span  class="homeBtns light">High Score</span>
+    </div>
+
+    <div class="button button-outline button-light button-block lediv" ui-sref="app.about">
+      <span  class="homeBtns light">about</span>
+    </div>
+
+  </div>
+ </ion-pane>
+</ion-view>
+
+<script type="text/ng-template" id="highScoreHUD.html">
+  <div>
+    <h3 align="center" style="font-family: KlavikaReg">High Score</h3>
+    <h2 align="center" style="font-family: KlavikaReg">{{starlet}}</h2>
+  </div>
+</script>
+
+
+<style type="text/css">
+  #container{
+    background-image: url('img/cand2.jpg');
+    /*background-color: yellow;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    
+  }
+
+  .homeBtns{
+    /*background-color: transparent;*/
+    /*min-width: 10em;*/
+    /*margin: 4px;*/
+    font-family: KlavikaReg
+      /*font-size: 2em;*/
+  }
+
+  .lediv{
+      font-size: 1.5em;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  
+</style>
+

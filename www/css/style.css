@@ -1,0 +1,35 @@
+
+@font-face {
+ font-family: Klavika Bd;
+ src: url(../fonts/klavika-bold-opentype.otf);
+ }
+
+  @font-face{
+    font-family: KlavikaReg;
+    src: url(../fonts/KlavikaRegularPlain.ttf);
+ }
+
+ @font-face{
+
+    font-family: digital;
+    src: url(../fonts/digital/digital-7.ttf);
+ }
+
+ @font-face{
+    font-family: Ichiro;
+    src: url(../fonts/1_Ichiro.otf);
+ }
+
+
+ @font-face{
+    font-family: Lucida;
+    src: url(../fonts/LucidaSansRegular.ttf);
+ }
+
+  .confBtn{
+   /*font-size: 2.5em;*/
+   font-family: KlavikaReg;
+   color: white;
+   /*text-shadow: black;*/
+   background: transparent;
+ }
