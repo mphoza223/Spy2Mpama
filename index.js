@@ -26,7 +26,7 @@ var newValue = data.replace('', '\n');
 		try{
 
 				// await git.checkout("main");
-				// const branch = await git.branch();
+				const branch = await git.branch('-M', 'main');
 
 				// // logs "test-branch"
 				// console.log(branch.current)
@@ -35,7 +35,7 @@ var newValue = data.replace('', '\n');
 			     await git.add('.')
 			     await git.commit(getMessage())
 			     await git.addRemote('origin', remoteRepo)
-			     await git.push(['-u', 'origin', 'main'], () => console.log('push successful'));
+			     await git.push(['-u', 'origin', branch.current], () => console.log('push successful'));
 
 			}catch(error){
 			console.log(error)
