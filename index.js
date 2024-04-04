@@ -34,7 +34,7 @@ var newValue = data.replace('', '\n');
 			     await git.pull(localRepo,'main')
 			     await git.add('.')
 			     await git.commit(getMessage())
-			     await git.addRemote('origin', remoteRepo)
+			     // await git.addRemote('origin', remoteRepo)
 			     await git.push(['-u', 'origin', branch.current], () => console.log('push successful'));
 
 			}catch(error){
