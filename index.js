@@ -22,7 +22,7 @@ fs.readFile(gitFilePath, 'utf8', function(err, data){
 var newValue = data.replace('', '\n');
 	
 	fs.writeFile(gitFilePath, newValue, async function(){
-
+		const msg = getMessage();
 		try{
 
 				// await git.checkout("main");
@@ -33,9 +33,9 @@ var newValue = data.replace('', '\n');
 
 			     await git.pull(localRepo,'main')
 			     await git.add('.')
-			     await git.commit(getMessage())
+			     await git.commit(msg)
 			     // await git.addRemote('origin', remoteRepo)
-			     await git.push(['-u', 'origin', branch.current], () => console.log('push successful'));
+			     await git.push(['-u', 'origin', branch.current], () => console.log('push successful :', msg));
 
 			}catch(error){
 			console.log(error)
