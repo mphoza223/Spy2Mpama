@@ -18,13 +18,14 @@ function getMessage(){
 // console.log(gitFilePath)
 
 fs.readFile(gitFilePath, 'utf8', function(err, data){
-var newValue = data.replace('', '\n');
+var newValue = data.replace('We want to push this out', '\n');
 	
 	fs.writeFile(gitFilePath, newValue, async function(){
 		const msg = getMessage();
 		try{
 
 		 	 const branch = await git.branch('-M', 'main');
+		 	 console.log("current branch :", branch.current)
 		     // await git.pull(__dirname,'main')
 		     await git.add('.')
 		     await git.commit(msg)
