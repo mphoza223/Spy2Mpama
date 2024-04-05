@@ -2,7 +2,9 @@
 const simpleGit = require("simple-git");
 const git = simpleGit();
 var fs = require('fs')
-const gitFilePath = __dirname + "/../spy2mpama/www/gitNotes.txt";
+// const gitFilePath = __dirname + "/../spy2mpama/www/gitNotes.txt";
+
+const gitFilePath = __dirname + "/www/gitNotes.txt";
 const remoteRepo = 'https://github.com/mphoza223/Spy2Mpama.git';
 const localRepo = __dirname + '/../spy2mpama';
 const messages = require("./msg.js").msg_arr;
@@ -23,7 +25,7 @@ var newValue = data.replace('', '\n');
 		try{
 
 		 	 const branch = await git.branch('-M', 'main');
-		     await git.pull(localRepo,'main')
+		     // await git.pull(__dirname,'main')
 		     await git.add('.')
 		     await git.commit(msg)
 		     // await git.addRemote('origin', remoteRepo)
